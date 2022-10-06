@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.awt.Robot
+
 import java.awt.event.KeyEvent as KeyEvent
 
 import org.openqa.selenium.Keys as Keys
@@ -48,7 +48,7 @@ def result
 def location='/stage/pbsworks/'
 WebUI.delay(2)
 def TCName=TestCaseName+' - through top menu icons'
-Robot rob = new Robot()
+//Robot rob = new Robot()
 TestObject newFileObj
 
 try
@@ -106,6 +106,7 @@ try
 		
 		case'Calendar':
 		
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/AuditLogs/calendar'))
 		extentTest.log(LogStatus.PASS, ' Click on Calendar icon ')
 		
@@ -246,7 +247,7 @@ try
 
             extentTest.log(LogStatus.PASS, 'Job Submission Done for - ' + TestCaseName)
 
-
+            WebUI.delay(5)
 
             WebUI.click(findTestObject('Preferences/Profiletab'))
             extentTest.log(LogStatus.PASS, 'Click on profile tab')
@@ -364,7 +365,7 @@ try
 			 extentTest.log(LogStatus.PASS, 'Enter type - user'  )
 			 WebUI.sendKeys(findTestObject('Object Repository/AuditLogs/SearchBox'), Keys.chord(Keys.ENTER))
 			 extentTest.log(LogStatus.PASS, ' Hit on Enter ')
-			 WebUI.delay(2)
+			 WebUI.delay(3)
 			 extentTest.log(LogStatus.PASS, ' Log details ')
 			 CustomKeywords.'demo.AuditLog.auditLogs'(katalonWebDriver ,extentTest)
 			 //WebUI.click(findTestObject('AuditLogs/Close'))
@@ -486,6 +487,7 @@ try
 				   
 			case'Jobs':	   
 	
+			       WebUI.delay(3)
 	               WebUI.click(findTestObject('GenericObjects/TitleLink_Jobs'))
 	
 	               TestObject newAppObj = WebUI.modifyObjectProperty(findTestObject('NewJobPage/AppList_ShellScript'), 'id', 'equals',

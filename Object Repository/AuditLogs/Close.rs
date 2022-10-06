@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@src='/pbsworks/static/media/icnClose_16.973f7ac0.svg']</value>
+         <value>//img[@src='/pbsworks/static/media/icnClose_16.973f7ac0a150ec7e56e35f3f250bedc6.svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

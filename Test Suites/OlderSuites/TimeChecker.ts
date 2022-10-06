@@ -3,13 +3,15 @@
    <description></description>
    <name>TimeChecker</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>10</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_Folders</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -18,7 +20,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JMFilters</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -27,7 +30,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JMGeneric</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -36,7 +40,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JSOps</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -45,7 +50,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_ProfileFilesPage</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -54,7 +60,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_ProfileJSForm</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -63,7 +70,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Folders</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -73,6 +81,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JMActions</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -81,7 +90,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileFilesPage</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -90,7 +100,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_Files</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -99,7 +110,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JS</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -108,7 +120,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JMActions</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -117,7 +130,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Files</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -127,6 +141,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JS</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -135,7 +150,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_JSOps</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -144,7 +160,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileJSForm</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -154,6 +171,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JMFilters</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -163,6 +181,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JMGeneric</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>

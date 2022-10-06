@@ -41,11 +41,13 @@ try
 
 */
 	WebUI.click(findTestObject('GenericObjects/TitleLink_Files'))
+	extentTest.log(LogStatus.PASS, 'Click on Files Tab ')
 	
 		WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
 		def location='/stage/'+GlobalVariable.G_userName+'/Upload'
 		
 			WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
+			extentTest.log(LogStatus.PASS, 'Click on edit Path')
 		
 			WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
 			extentTest.log(LogStatus.PASS, 'Navigated to /stage/JSUploads in RFB ')
@@ -62,16 +64,20 @@ try
 	
 	
     WebUI.verifyElementPresent(findTestObject('2020.1/Verify_unzip_message'), 3)
+	extentTest.log(LogStatus.PASS, 'Verify the unzip message')
 	
 	WebUI.click(findTestObject('2020.1/Cancel_button'))
+	extentTest.log(LogStatus.PASS, 'Click on cancel button')
 	
 	WebUI.delay(6)
 	
 	
 			
 			WebUI.rightClick(findTestObject('2020.1/Verify_Unzipfile'))
+			extentTest.log(LogStatus.PASS, 'Right click to unzip zip file')
 			
 			WebUI.click(findTestObject('2020.1/Uncompress'))
+			extentTest.log(LogStatus.PASS, 'Click on uncompress')
 			
 
 	

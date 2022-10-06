@@ -73,28 +73,40 @@ else
 		WebUI.setText(findTestObject('FilesPage/FilesSearch_filter'), fileName)
 		extentTest.log(LogStatus.PASS, 'Looking for file to perfrom operation - ' +TestOperation)
 		WebUI.sendKeys(findTestObject('JobDetailsPage/TextBx_DetailsFilter'), Keys.chord(Keys.ENTER))
-		extentTest.log(LogStatus.PASS, 'Clicked on File  - ' + fileName)
 
 		newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File'), 'title', 'equals',fileName, true)
 
 		def fileItem = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(newFileObj, 20,extentTest,fileName)
-		if (TestOperation.contains('icon'))
+		if(fileItem)
 		{
-			WebUI.waitForElementPresent(newFileObj, 3)
-			WebUI.click(newFileObj)
-			extentTest.log(LogStatus.PASS, 'Clicked on file ' + fileName)
-			result = CustomKeywords.'operations_FileModule.fileOperations_Icon.executeFileOperations'(TestOperation, TestCaseName,extentTest)
-		}
+			if (TestOperation.contains('icon'))
+			{
+				WebUI.waitForElementPresent(newFileObj, 3)
+				WebUI.click(newFileObj)
+				extentTest.log(LogStatus.PASS, 'Clicked on file ' + fileName)
+				result = CustomKeywords.'operations_FileModule.fileOperations_Icon.executeFileOperations'(TestOperation, TestCaseName,extentTest)
+			}
 
+			else
+			{
+				WebUI.waitForElementPresent(newFileObj, 3)
+				WebUI.delay(3)
+				WebUI.click(newFileObj)
+				WebUI.rightClick(newFileObj)
+				extentTest.log(LogStatus.PASS, 'Right Clicked File to invoke context menu on  - ' + fileName)
+				result=CustomKeywords.'operations_FileModule.fileOperations.executeFileOperations'(TestOperation, TestCaseName , extentTest)
+			}
+
+		}
 		else
 		{
-			WebUI.waitForElementPresent(newFileObj, 3)
-			WebUI.click(newFileObj)
-			WebUI.rightClick(newFileObj)
-			extentTest.log(LogStatus.PASS, 'Right Clicked File to invoke context menu on  - ' + fileName)
-			result=CustomKeywords.'operations_FileModule.fileOperations.executeFileOperations'(TestOperation, TestCaseName , extentTest)
+			WebUI.sendKeys(findTestObject('JobDetailsPage/TextBx_DetailsFilter'), Keys.chord(Keys.ENTER))
+			String ascreenShotPath = (('ExtentReports/' + TestCaseName) + GlobalVariable.G_Browser) + '.png'
+			WebUI.takeScreenshot(ascreenShotPath)
+			String a = (TestCaseName + GlobalVariable.G_Browser) + '.png'
+			extentTest.log(LogStatus.FAIL, ex)
+			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(a))
 		}
-
 
 
 		if (result)

@@ -52,11 +52,15 @@ try
 				
 				extentTest.log(LogStatus.PASS, 'Upload zip file')
 	
+				WebUI.delay(3)
+				
 	
     WebUI.verifyElementPresent(findTestObject('2020.1/Verify_unzip_message'), 3)
 	extentTest.log(LogStatus.PASS, 'Verify unzip message')
 	
-
+	WebUI.click(findTestObject('2020.1/Cancel_button'))
+	extentTest.log(LogStatus.PASS, 'Click on cancel button')
+	
 	
 
 	if (GlobalVariable.G_Browser == 'IE') {

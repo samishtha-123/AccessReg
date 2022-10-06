@@ -458,17 +458,17 @@ public class fileOperations {
 				WebUI.delay(5)
 				extentTest.log(LogStatus.PASS, ' Clicked on Download Menu Item')
 
-				File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
-				List namesOfFiles = Arrays.asList(downloadFolder.list())
-				if (namesOfFiles.contains('ToDownload_LV.txt')) {
-					println('success')
-					//extentTest.log(LogStatus.PASS, 'file to downloaded ')
-
-				} else {
-					println('fail')
-				}
-				extentTest.log(LogStatus.PASS, 'Verified file existes on host machine at path - '+GlobalVariable.G_DownloadFolder)
-
+			/*	File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
+			 List namesOfFiles = Arrays.asList(downloadFolder.list())
+			 if (namesOfFiles.contains('ToDownload_LV.txt'))
+			 {
+			 println('success')
+			 //extentTest.log(LogStatus.PASS, 'file to downloaded ')
+			 } else {
+			 println('fail')
+			 }
+			 extentTest.log(LogStatus.PASS, 'Verified file existes on host machine at path - '+GlobalVariable.G_DownloadFolder)
+			 */
 				return true
 				break
 

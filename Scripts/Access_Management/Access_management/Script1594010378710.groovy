@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.awt.Robot
+
 import java.awt.event.KeyEvent as KeyEvent
 
 import org.openqa.selenium.WebDriver as WebDriver
@@ -64,7 +64,7 @@ String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Brow
 def result
 
 WebUI.delay(2)
-Robot rob = new Robot()
+//Robot rob = new Robot()
 
 try
 {
@@ -96,8 +96,9 @@ try
 		WebUI.delay(3)
 		WebUI.doubleClick(findTestObject('Object Repository/Access_Management/Username_text'))
 		WebUI.delay(2)
-		rob.keyPress(KeyEvent.VK_BACK_SPACE)
-		rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+		//rob.keyPress(KeyEvent.VK_BACK_SPACE)
+		//rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+		
 		WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), '')
 		WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), username)
 		extentTest.log(LogStatus.PASS, 'Add username name - ' + username )

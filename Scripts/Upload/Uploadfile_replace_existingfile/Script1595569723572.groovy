@@ -63,6 +63,8 @@ try
 	println(newFP1)
 	WebUI.uploadFile(findTestObject('FilesPage/UploadFileBtn'), newFP1 )
 	
+	WebUI.delay(4)
+	
 	WebUI.verifyElementPresent(findTestObject('2020.1/Replace_File'), 3)
 	extentTest.log(LogStatus.PASS, 'Verify replace file message')
 	

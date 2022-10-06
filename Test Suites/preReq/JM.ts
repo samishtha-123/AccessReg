@@ -97,47 +97,4 @@
          <variableId>1f0aeaa5-6880-49cb-8d7a-14ac8e0f1c1e</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>4049c397-0cb1-47cc-90e0-97bde26c032a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-Radioss</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>555f6179-797c-40ee-9175-3024701ef098</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bb8904a3-0f9b-4181-9c73-a26e4b18336d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>caa99b31-93ad-4161-8c83-6a54f2f4def1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cdef70d1-7ce9-4118-b69a-e5b153efcb8c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c00d92e3-71df-4533-8fbc-f68325edd490</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>52f77332-477a-45e2-bbf6-d5b4f5710123</variableId>
-      </variableLink>
-   </testCaseLink>
 </TestSuiteEntity>

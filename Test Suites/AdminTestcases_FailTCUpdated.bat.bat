@@ -1,1 +1,0 @@
-katalon -noSplash  -runMode=console -projectPath="C:\Users\samita\Downloads\AccessWeb\AccessWeb.prj" -retry=0 -testSuitePath="" -executionProfile="Chrome_Files -admin" -browserType="Chrome"

@@ -46,17 +46,32 @@ try {
 
 	extentTest.log(LogStatus.PASS, 'Click on files tab')
 	WebUI.delay(3)
-	WebUI.doubleClick(findTestObject('FilesPage/Bookmark'))
+	WebUI.mouseOver(findTestObject('FilesPage/Bookmark'))
+	WebUI.clickOffset(findTestObject('FilesPage/Bookmark'), 0, 0)
+	WebUI.delay(3)
+	
+	
+	WebUI.click(findTestObject('FilesPage/Bookmark'))
 	extentTest.log(LogStatus.PASS, 'Click on bookmark')
 
 
 	switch (option){
 		case 'create':
 
+		    println('hhh')
+			WebUI.delay(2)
+			WebUI.mouseOver(findTestObject('FilesPage/Createbookmark'))
+			WebUI.clickOffset(findTestObject('FilesPage/Createbookmark'), 0, 0)
+			WebUI.delay(3)
+			
+			
+			WebUI.click(findTestObject('FilesPage/Createbookmark'))
+			extentTest.log(LogStatus.PASS, 'Click on bookmark')
+		/*
 			WebUI.click(findTestObject('FilesPage/Createbookmark'))
 			extentTest.log(LogStatus.PASS, 'Click on create new bookmark')
 			WebUI.delay(2)
-
+*/
 			WebUI.setText(findTestObject('Filespage/Enter Name'),bookMarkName)
 			extentTest.log(LogStatus.PASS, 'Enter the Name of bookmark - ' + bookMarkName)
 

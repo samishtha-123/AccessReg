@@ -281,7 +281,7 @@ public class executeJobAction {
 				extentTest.log(LogStatus.PASS, 'Downloading job')
 
 
-				def downloadLoc=GlobalVariable.G_DownloadFolder
+			/*	def downloadLoc=GlobalVariable.G_DownloadFolder
 				File downloadFolder = new File("C://KatalonDownloads")
 
 				List namesOfFiles = Arrays.asList(downloadFolder.list())
@@ -296,7 +296,7 @@ public class executeJobAction {
 				}
 
 				return true
-
+*/
 
 				result=true
 				break

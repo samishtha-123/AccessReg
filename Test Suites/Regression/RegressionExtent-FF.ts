@@ -10,34 +10,38 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Files</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/FileOperationsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/FileOperationsExtent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Folders</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/FolderOperationsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/FolderOperationsExtent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JSOps</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/JobsRFB-FileOperations-DryRunsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/JobsRFB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chrome_JS</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -46,7 +50,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileFilesPage</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -55,7 +60,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileJSForm</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -65,6 +71,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JMActions</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -74,6 +81,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_JMFilters</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -82,34 +90,38 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileFilesPage</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/FileOperationsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/FileOperationsExtent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_ProfileJSForm</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/FolderOperationsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/FolderOperationsExtent</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_JS-rohini-53</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/JobsRFB-FileOperations-DryRunsExtent</testSuiteEntity>
+         <testSuiteEntity>Test Suites/001Console/JobsRFB</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_JSFileOps-bhuvana-53</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>

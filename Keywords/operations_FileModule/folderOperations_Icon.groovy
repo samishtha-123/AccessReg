@@ -334,11 +334,11 @@ public class folderOperations_Icon {
 					else {
 						oriFolderName='MyFolderDownload_LV'
 					}
-					File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
+				/*	File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
 
 					List namesOfFiles = Arrays.asList(downloadFolder.list())
 
-					/*if (namesOfFiles.contains(oriFolderName)) {
+					if (namesOfFiles.contains(oriFolderName)) {
 				 println('success')
 				 //extentTest.log(LogStatus.PASS, 'Verified the folder downloaded in C:\\katalonDownloads - '+oriFolderName+'.zip')
 				 result= true

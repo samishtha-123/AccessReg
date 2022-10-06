@@ -337,7 +337,7 @@ public class multifileOpsCntxtMn {
 
 					WebUI.click(findTestObject('Object Repository/FilesPage/ContextMenu_FileGrid_Download'))
 				}
-				WebUI.delay(5)
+			/*	WebUI.delay(5)
 
 				File downloadFolder = new File(GlobalVariable.G_DownloadFolder)
 
@@ -349,7 +349,7 @@ public class multifileOpsCntxtMn {
 
 				} else {
 					println('fail')
-				}
+				}*/
 
 				return true
 				break

@@ -3,6 +3,7 @@
    <description></description>
    <name>DryRun</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
@@ -10,6 +11,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFoxProfileJS</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -18,7 +20,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Chromium_JS</profileName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -28,6 +31,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>ChromeProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -37,6 +41,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFoxProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -46,6 +51,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>ProChromeProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -55,6 +61,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFoxProfile-Pro</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -64,6 +71,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>JMChromeProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -73,6 +81,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>JMFireFoxProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -82,6 +91,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>JM2ChromeProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -91,6 +101,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>JM2FireFoxProfile</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

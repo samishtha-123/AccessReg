@@ -183,7 +183,7 @@ public class fileViewerOperations {
 				extentTest.log(LogStatus.PASS, 'Click on file to download')
 				WebUI.delay(3)
 				def downloadLoc=GlobalVariable.G_DownloadFolder
-				File downloadFolder = new File("C://KatalonDownloads")
+				/*File downloadFolder = new File("C://KatalonDownloads")
 
 				List namesOfFiles = Arrays.asList(downloadFolder.list())
 				println(namesOfFiles.size())
@@ -193,7 +193,7 @@ public class fileViewerOperations {
 				} else {
 					println('fail')
 					result=false
-				}
+				}*/
 
 				return true
 				break

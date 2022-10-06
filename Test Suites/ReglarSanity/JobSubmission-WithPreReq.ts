@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobSubmission</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>a70d0f78-a0de-4e39-8762-db2befa5f530</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -82,6 +83,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

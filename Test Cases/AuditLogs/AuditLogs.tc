@@ -91,7 +91,7 @@
       <name>TestCaseName</name>
    </variable>
    <variable>
-      <defaultValue>'audit page'</defaultValue>
+      <defaultValue>'Calendar'</defaultValue>
       <description></description>
       <id>59eacc83-ed22-45ab-9a5f-f6214e4b645e</id>
       <masked>false</masked>

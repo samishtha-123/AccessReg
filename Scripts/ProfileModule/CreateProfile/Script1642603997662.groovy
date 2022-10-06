@@ -36,7 +36,7 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 def navLocation = CustomKeywords.'generateFilePath.filePath.execLocation'()
 //====================================================================================
 
-Robot rob = new Robot()
+
 def isProfilePersent
 
 WebUI.delay(2)

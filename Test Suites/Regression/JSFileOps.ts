@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7c2060f4-e812-439e-b73a-bf7da80ede90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/MultipleJobSubmissions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -39,16 +39,16 @@
    <testCaseLink>
       <guid>60fc8295-97d4-4e81-a11c-c1bf7c1ef1be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6cca387c-ae79-43df-af08-1d94db925586</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-12</value>
          </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobSubmissionFileOperations</testDataId>
+         <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -83,147 +83,147 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>087d050a-834e-4c93-8679-3aa572c9d9cb</guid>
+      <guid>0acca874-3122-46ab-a72c-14d70712430b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations-Topmenuicons</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>17cf1cbb-b7b5-4057-b63f-9f8b2737ee58</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-5</value>
-         </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobSubmissionFileOperations</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>120ba62f-cb20-420f-b9ed-bc964b7eaab5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>17cf1cbb-b7b5-4057-b63f-9f8b2737ee58</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FileName</value>
-         <variableId>69e965b4-ec08-4e83-a907-9aa3bb51eb9d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>17cf1cbb-b7b5-4057-b63f-9f8b2737ee58</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>01885c6a-c4fa-47e2-b0ef-08c44571cc02</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>17cf1cbb-b7b5-4057-b63f-9f8b2737ee58</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>IconOperation</value>
-         <variableId>22302168-4dbd-4a3c-81bd-627834fe4f4c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3294d234-7ac9-4e40-9586-bb788fe78fb8</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ccb8a44f-86a6-44c7-ab64-b76b73db67a3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOpearations-obsolete</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>e1ec5976-aec0-464f-a05b-f0b76346a654</id>
+         <id>883adf85-4cf5-4f4f-88d8-f75382095594</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobSubmission-FolderOps</testDataId>
+         <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6f506960-4f5e-4b84-bed7-671f2d49a683</variableId>
+         <variableId>295020a0-90c1-43b3-b6b1-8be5bdf98484</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e1ec5976-aec0-464f-a05b-f0b76346a654</testDataLinkId>
+         <testDataLinkId>883adf85-4cf5-4f4f-88d8-f75382095594</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>FolderName</value>
-         <variableId>beba9736-9fee-4ef0-a2a2-27db57f47b16</variableId>
+         <value>FileName</value>
+         <variableId>d7386246-6246-4cc7-b688-3ceed1d43158</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e1ec5976-aec0-464f-a05b-f0b76346a654</testDataLinkId>
+         <testDataLinkId>883adf85-4cf5-4f4f-88d8-f75382095594</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TestCaseName</value>
-         <variableId>eb71c3c9-130e-4abc-8556-4951c50f08d4</variableId>
+         <variableId>eaebe514-d89a-4eb9-9d9f-8d87bb9fbb58</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e1ec5976-aec0-464f-a05b-f0b76346a654</testDataLinkId>
+         <testDataLinkId>883adf85-4cf5-4f4f-88d8-f75382095594</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Operation</value>
-         <variableId>ca7dce17-ea75-48b5-a618-53771420831e</variableId>
+         <value>IconOperation</value>
+         <variableId>62f61e34-294a-4077-afd6-a99d73244bdb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>45359e71-21c9-42bc-9d9a-ea2558c293ec</variableId>
+         <variableId>2452730a-fb63-4365-92a2-2ba74197dafc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5b4770fe-35f2-49d1-aa13-fa1f189dd0ba</guid>
+      <guid>d76089aa-cb23-4d66-bb08-bfbe44cc6cd4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
+      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>dd73495e-5624-4a23-9806-657e63bff286</id>
+         <id>c166dacf-f745-4dfb-abe6-ed17c8037188</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <iterationType>ALL</iterationType>
+            <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobSubmission-FolderOps</testDataId>
+         <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>282533ac-7186-412e-b328-346236da8b00</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>dd73495e-5624-4a23-9806-657e63bff286</testDataLinkId>
+         <testDataLinkId>c166dacf-f745-4dfb-abe6-ed17c8037188</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FolderName</value>
-         <variableId>5ea127d8-b300-4e17-810d-e61fa8333209</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>dd73495e-5624-4a23-9806-657e63bff286</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>4de6a06a-99da-4e29-b4a7-02d6fbe53d76</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>dd73495e-5624-4a23-9806-657e63bff286</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>IconOperation</value>
-         <variableId>19c30876-5316-4840-9428-1ba360cec6de</variableId>
+         <variableId>8105a991-43b5-43b0-8b1f-ee3f69e92345</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>76a40af3-e743-477e-b0f5-fc543856d43c</variableId>
+         <variableId>eb4f6178-1b28-43aa-933b-1eb3ee68a864</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c166dacf-f745-4dfb-abe6-ed17c8037188</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>1ce8f2e1-64d6-42e2-8daa-c642b7eaca9e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c166dacf-f745-4dfb-abe6-ed17c8037188</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Operation</value>
+         <variableId>0025ea3f-58a9-4de0-8d6b-0a01c78a12ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>45eaf3c1-c83b-40c5-9ffe-02caf94b28a0</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6b74b1fa-6dbf-413f-8468-178521363c75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7f8d3a11-6873-4cc1-89ce-d12ded8f768b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7f8d3a11-6873-4cc1-89ce-d12ded8f768b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FolderName</value>
+         <variableId>8105a991-43b5-43b0-8b1f-ee3f69e92345</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb4f6178-1b28-43aa-933b-1eb3ee68a864</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7f8d3a11-6873-4cc1-89ce-d12ded8f768b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>1ce8f2e1-64d6-42e2-8daa-c642b7eaca9e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7f8d3a11-6873-4cc1-89ce-d12ded8f768b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>IconOperation</value>
+         <variableId>0025ea3f-58a9-4de0-8d6b-0a01c78a12ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>45eaf3c1-c83b-40c5-9ffe-02caf94b28a0</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3d6c6aa3-018c-49b5-b1e7-c4d15b7453ca</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-InvalidPath</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -254,7 +254,7 @@
    <testCaseLink>
       <guid>4dc4abda-ffae-474b-8b30-657098409991</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Disabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -303,7 +303,7 @@
    <testCaseLink>
       <guid>3d0fe48d-3f8c-4a6f-98cc-2edaa8da6a72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-VerifyLabel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -337,7 +337,7 @@
    <testCaseLink>
       <guid>51d4bc8d-b456-424c-b30b-296ed2fc4553</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-switchApplication</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -380,7 +380,7 @@
    <testCaseLink>
       <guid>22fde961-5a7d-4c8d-acf8-8ec4b585ad13</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Enabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -429,7 +429,7 @@
    <testCaseLink>
       <guid>e7df1ab6-fd52-45c5-821c-74d6d2b61609</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission_LeaveForm</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -463,7 +463,7 @@
    <testCaseLink>
       <guid>a8aaa38b-e7ab-4eed-b1df-7c087e7bd6bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission_Reset</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -495,73 +495,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0fae09fe-20bd-485f-a313-5e68d740e23a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmissionForLastSubmitted</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4cb43813-67a3-4161-b8ed-6837214c3566</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>13-14</value>
-         </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobMonitoringGenericOperations</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2165b182-636d-4b7f-ade2-161fca571166</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dc34a078-3b76-4c35-9aca-e5bdde596154</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4cb43813-67a3-4161-b8ed-6837214c3566</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>8593a4b9-9f88-428e-ba17-b836e798acf9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1e5d3486-4f6d-4c60-b9f7-f852e8083cf1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d6ecc3a3-627b-4125-86fb-cb2431021897</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d935056-a60a-4f76-a4d1-527bbd6f770d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a3c1226f-d56d-4cdf-ab0d-cd98ce0d3fa2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>4cb43813-67a3-4161-b8ed-6837214c3566</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>userChoice</value>
-         <variableId>0d0853fe-9935-4957-956d-2f65728efe35</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1d464ced-a2a4-4303-a295-d4ba9e350b92</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-AddJobScriptOption</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -616,7 +552,7 @@
    <testCaseLink>
       <guid>7d26efc6-8c56-4d38-95d0-4527217d2a44</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-AddJobFiles</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -70,6 +71,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>a2eda6e4-c2dc-417c-a95f-2dcd645f0c43</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -109,6 +111,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>0d6aac11-94cd-4129-b829-ef8f8f1f273d</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -154,6 +157,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForJobMonitoringGenericOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>d092280c-55eb-4a78-af85-fffafe1f88e0</testDataLinkId>
          <type>DATA_COLUMN</type>

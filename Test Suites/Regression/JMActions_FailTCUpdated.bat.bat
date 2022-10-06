@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\samita\Downloads\Acc-master\Acc-master\AccessWeb.prj" -retry=0 -testSuitePath="Test Suites/Regression/JMActions_20220929_130648" -executionProfile="FireFox_JMGeneric" -browserType="Chrome"

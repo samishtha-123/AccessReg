@@ -4,31 +4,16 @@ import internal.GlobalVariable as GlobalVariable
 
 
 def Browser = GlobalVariable.G_Browser
+//====================================================================================
+ReportFile = (GlobalVariable.G_ReportName + '.html')
+def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
+def LogStatus = com.relevantcodes.extentreports.LogStatus
+def extentTest = extent.startTest(TestCaseName)
+//=====================================================================================
 
 
 extentTest.log(LogStatus.PASS, 'Navigated to Acces Instance - '+GlobalVariable.G_BaseUrl)
 
-
-if (Browser == 'Edge Chromium') {
-	WebUI.click(findTestObject('Object Repository/GenericObjects/EdgeChromium_Details_link'))
-
-	WebUI.delay(3)
-
-	WebUI.click(findTestObject('Object Repository/GenericObjects/EdgeChromium_proceed_link'))
-
-	WebUI.delay(3)
-	WebUI.deleteAllCookies()
-}
-if (Browser == 'IE') {
-
-	WebUI.click(findTestObject('Object Repository/GenericObjects/IE_Details_Link'))
-
-	WebUI.delay(3)
-	WebUI.waitForElementVisible(findTestObject('Object Repository/GenericObjects/EdgeProceedeLink'), 2)
-	WebUI.click(findTestObject('Object Repository/GenericObjects/EdgeProceedeLink'))
-
-	WebUI.delay(3)
-}
 WebUI.setText(findTestObject('LoginPage/username_txtbx'), GlobalVariable.G_userName)
 
 WebUI.setText(findTestObject('LoginPage/password_txtbx'), GlobalVariable.G_Password)
